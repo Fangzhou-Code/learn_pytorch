@@ -388,12 +388,17 @@ plt.show()
 $C_0^{\prime}  = C_0$ <br>
 $C_i^{\prime} = \beta*C_{i}+(1-\beta)*C_{i-1}^{\prime}$ 
 
-
-### 四、gradient descent vs. stochastic gradient descent vs. batch gradient descent
-上面的内容我们了解了什么是梯度下降。
 ![cost function divergence](image/divergence.png)
 
 当我们的损失函数变成这样的曲线时，意味着cost function<strong>发散</strong>，训练失败了。
 
 而造成发散的原因有很多，最常见的原因是学习率太大。<br>
-学习率可以理解为每次更新迭代的频率
+学习率可以理解为每次更新迭代的频率，
+
+
+
+### 四、gradient descent vs. stochastic gradient descent vs. batch gradient descent
+上面的内容我们了解了什么是梯度下降。
+
+
+
